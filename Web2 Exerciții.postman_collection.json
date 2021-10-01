@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "b39cdf11-c66a-4f04-a17d-6ac4422fd2d8",
+		"name": "Web2 Exerciții",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Sum2Parameters",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"a\":7,\r\n    \"b\":3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ex3/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ex3",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Concat2Parameters",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"a\":\"e\",\r\n    \"b\":\"u\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ex3/concat",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ex3",
+						"concat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sum&Operation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"a\":7,\r\n    \"b\":3,\r\n    \"operation\":\"*\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ex3/operation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ex3",
+						"operation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
